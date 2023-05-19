@@ -1,0 +1,18 @@
+{
+    "files.exclude": {
+        ".gitignore": true,
+        ".vscode": true,
+        "build": true,
+        ".dart_tool": true,
+        // "android": true,
+        "ios": true,
+        "web": true,
+        ".packages": true,
+        "pubspec.lock": true,
+        ".metadata": true,
+        "**/generated_plugin_registrant.dart":true,
+        "**/chart":true,
+        "**/.idea":true,
+        "**/.flutter*":true
+    }
+}
