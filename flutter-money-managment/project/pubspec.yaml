@@ -1,0 +1,53 @@
+name: dashboard_app
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  go_router: ^6.2.0
+  isar: ^3.0.5
+  isar_flutter_libs: ^3.0.5
+  intl: ^0.17.0
+  syncfusion_flutter_datepicker: ^21.1.39
+  syncfusion_flutter_charts: ^21.1.39
+  internet_connection_checker: ^1.0.0+1
+  overlay_support: ^2.1.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  isar_generator: ^3.0.5
+  build_runner: ^2.3.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
